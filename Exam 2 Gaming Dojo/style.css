@@ -1,0 +1,76 @@
+*{
+    margin:0cm 0;
+    padding: 0;
+}
+
+.navbarcontainer{
+    margin: 0 auto;
+    width: 95%;
+    background-color:blueviolet
+}
+
+.navbaricons{
+    text-align: right;
+}
+
+.highlightcontainer{
+    padding-left: 50px;
+    position: static;
+}
+
+.maincontainer{
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+}
+
+.topcontainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    border-style: solid;
+    width: 1200px;
+    height: 400px;
+    align-items: center;
+}
+
+.topcontainer button{
+    height: 100px;
+    width: 100px;
+}
+
+.leftcontainer{
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    border-style: solid;
+}
+
+.middlecontainer{
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    border-style: solid;
+}
+
+.rightcontainer{
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    border-style: solid;
+}
+
+.bottomcontainer{
+    padding-top: 25px;
+    justify-content: space-around;
+    display: inline-block;
+}
+
+.iconcontainers{
+    text-align: left;
+}
+
+.buycontainer{
+    text-align: center;
+    margin: 0 auto;
+}
