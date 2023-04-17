@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="adcontainer">
+            <h3>Free Phone Grip On Select Purchases</h3>
+        </div>
+        <dv class="searchcontainer">
+            <h2>PlushStar</h2>
+            <input type="text" placeholder="Search...">
+            <div class="cartcontainer">
+                <img src="./images/cart-dark.png" alt="Cart">
+                <p><a id="clicks">0</a></p>
+            </div>
+        </dv>
+        <div class="navbarcontainer">
+            <p>Home</p>
+            <p>New</p>
+            <p>Products</p>
+            <p>Sales</p>
+            <p>Blog</p>
+            <input value="Contact Us" type="button" onclick="alert('Contact Us at 555-5555')">
+        </div>
+        <div class="headercontainer">
+            <h1>PlushyStore</h1>
+        </div>
+        <div class="dropdowncontainer">
+            <div class="dropdown">
+                <label for="catagory">Sort By:</label>
+                <select name="catagory" id="catagory" onchange="populate('value1,value2')">
+                    <option value1="Price">Price</option>
+                    <option value2="BestSelling">Best Selling</option>
+                </select>
+            </div>
+        </div>
+        <div class="stockcontainer">
+            <dv class="mousecontainer">
+                <img src="./images/Mischief Mouse.png" alt="MischiefMouse">
+                <p>Mischief Mouse</p>
+                <button type="button" onClick="onClick()">Buy</button>
+            </dv>
+            <div class="shrewcontainer">
+                <img src="./images/Shy Shrew.png" alt="ShyShrew">
+                <p>ShyShrew</p>
+                <button type="button" onClick="onClick()">Buy</button>
+            </div>
+            <div class="hamstercontainer" alt="HangryHamster">
+                <img src="./images/Hangry Hamster.png" alt="HangryHamster">
+                <p>HangryHamster</p>
+                <button type="button" onClick="onClick()">Buy</button>
+            </div>
+            <div class="chincontainer">
+                <img src="./images/Chilly Chhinchilla.png" alt="ChillyChin">
+                <p>Chilly Chinchilla</p>
+                <button type="button" onClick="onClick()">Buy</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
