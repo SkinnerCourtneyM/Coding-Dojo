@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbarcontainer {
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+.wrapper{
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin:0 auto;
+}
+
+.feedcontainer {
+    text-align: center;
+}
+
+.profilecontainer {
+    text-align: center;
+    border-style: solid;
+    width: 250px;
+    height: 400px;
+}
+
+.container {
+    border-style: solid;
+    width: 500px;
+    height: 150px;
+    margin: 15px;
+}
