@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+}
+
+.images {
+    width: 15%;
+}
+
+.topcontainer {
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+    background-color: red;
+    margin: 15px;
+    width: 85%;
+}
+
+.middlecontainer {
+    padding: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: black;
+    margin: 15px;
+    width: 85%;
+}
+
+.bottomcontainer {
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+    background-color: aqua;
+    margin: 15px;
+    width: 85%;
+}
