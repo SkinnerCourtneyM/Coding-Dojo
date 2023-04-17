@@ -1,0 +1,28 @@
+.navbarcontainer {
+    background-color: gray;
+    width: 99%;
+}
+
+.leftcontainer {
+    display: inline-block;
+}
+
+.topcontainer {
+    width: 550px;
+    border-style: solid;
+}
+
+.bottomcontainer {
+    width: 550px;
+    border-style: solid;
+}
+
+.definitioncontainer {
+    border-style: solid;
+    width: 450;
+    height: 250;
+}
+
+.rightcontainer {
+    display: inline-block;
+}
