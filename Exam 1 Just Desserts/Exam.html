@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="logincontainer">
+        <h1>JustDessert</h1>
+        <div><ul class="loginlist">
+            <li button id="Join" type="button" onclick="toggle(this)">Join</button></li>
+            <li button>Login</button></li>
+        </ul>
+    </div>
+    </div>
+    <div class="navbarcontainer">
+        <input type="text" placeholder="Search..." onclick="alert('You searched for a recipe')">
+        <img src="./SourceImages/Cake.png" alt="Cake">
+        <img src="./SourceImages/Cookie.png" alt="Cookies">
+        <img src="./SourceImages/IceCream.png" alt="IceCream">
+        <img src="./SourceImages/Pie.png" alt="Pies">
+    </div>
+    <div class="wrapper">
+        <div class="leftcontainer">
+            <h2>Recipe Of The Day</h2>
+            <img src="./SourceImages/OrangeTart.png" alt="OrangeTart">
+            <p>Orange Tea Jelly Tart <img src="./SourceImages/Heart.png" alt="Heart">
+                <button id="like" type="button" onclick="like(this)">0</button>
+            <p>By: <a href="#">Yuripiano</a>
+                <br>
+                <a href="#">See Full Recipe</a>
+        </div>
+        <div class="rightcontainer">
+            <h2>Recommended For You:</h2>
+            <img src="./SourceImages/Macarons.png" alt="Macarons">
+            <br>
+            <label>Macarons</label>
+            <br>
+            <p>By: <a href="#">EmillieW</a><img src="./SourceImages/Heart.png" alt="Heart">
+                <button id="like" type="button" onclick="like(this)">0</button>
+                <img src="./SourceImages/CremeBrulee.png" alt="CremeBrulee">
+                <br>
+                <label>CremeBrulee</label>
+                <br>
+            <p>By: <a href="#">MarisaG</a><img src="./SourceImages/Heart.png" alt="Heart">
+                <button id="like" type="button" onclick="like(this)">0</button>
+        </div>
+    </div>
+</body>
+
+</html>

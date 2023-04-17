@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logincontainer{
+    margin:auto;
+    width: 1687px;
+    height: 100px;
+    background-color: rgb(78, 73, 73);
+}
+
+h1{
+    color: white;
+    font-family: comic;
+}
+
+.loginlist{
+    text-align: right;
+    list-style-type: none;
+    
+}
+
+.navbarcontainer{
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+    height: 275px;
+    width: 1687px;
+    background-color: rgb(226, 185, 131);
+    margin-bottom: 50px;
+}
+
+.wrapper{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.leftcontainer{
+    text-align: center;
+    width: 1000px;
+    height: 750px;
+    background-color: hsl(180, 20%, 90%);
+}
+
+.rightcontainer{
+    width: 525px;
+    height: 800px;
+    text-align: center;
+}
